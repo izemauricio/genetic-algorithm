@@ -1,4 +1,4 @@
-// 2013 - mauricio
+// Mauricio @ 2013
 
 #include <iostream>
 #include <time.h>
@@ -296,7 +296,7 @@ void evolve()
 	if (j == MAX_CROMOSSOMOS)
 		j = j / 2;
 
-	// i vai ser igual a metade se todos foram menores que a media OOOOU i vai ser igual aos copiados (com isso, só os individuos da populacao total que nao foram qualificados irao receber crossover)
+	// i vai ser igual a metade se todos foram menores que a media OOOOU i vai ser igual aos copiados (com isso, sï¿½ os individuos da populacao total que nao foram qualificados irao receber crossover)
 	i = j;
 
 	// faz o crossover e a mutacao (e guarda o filho nos espacos dos individuos que nao passaram na qualificacao) para tentar criar um individuo que seje a solucao
